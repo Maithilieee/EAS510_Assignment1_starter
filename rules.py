@@ -60,11 +60,11 @@ def _downscale(img, max_dim=512):
 
 
 @lru_cache(maxsize=256)
-def _gray(path):
+def _gray_full(path):
     img = _arr(path)
     if img is None:
         return None
-    return _downscale(cv2.cvtColor(img, cv2.COLOR_BGR2GRAY))
+    return cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 
 @lru_cache(maxsize=256)
@@ -127,13 +127,18 @@ def rule3_template(target, input_path):
     out = {"rule": 3, "name": "Template", "fired": False, "score": 0,
            "out_of": 40, "note": "Match score 0.00", "metric": 0.0}
     try:
-        src_g = _gray(target["path"])
-        nd_g = _gray(input_path)
-        if src_g is None or nd_g is None:
+        src_full = _gray_full(target["path"])
+        nd_full = _gray_full(input_path)
+        if src_full is None or nd_full is None:
             return out
-        if (src_g.shape[0] < nd_g.shape[0]) or (src_g.shape[1] < nd_g.shape[1]):
-            nd_g = cv2.resize(nd_g, (min(nd_g.shape[1], src_g.shape[1]),
-                                     min(nd_g.shape[0], src_g.shape[0])))
+        # A suspect larger than the original cannot be a crop of it.
+        if (nd_full.shape[0] > src_full.shape[0]) or (nd_full.shape[1] > src_full.shape[1]):
+            return out
+        # One scale factor, taken from the original, applied to both images,
+        # so a crop keeps its true size relative to the original.
+        scale = min(1.0, 512 / max(src_full.shape))
+        src_g = cv2.resize(src_full, None, fx=scale, fy=scale, interpolation=cv2.INTER_AREA)
+        nd_g = cv2.resize(nd_full, None, fx=scale, fy=scale, interpolation=cv2.INTER_AREA)
         res = cv2.matchTemplate(src_g, nd_g, cv2.TM_CCOEFF_NORMED)
         metric = float(res.max())
         out["metric"] = round(max(0.0, min(1.0, metric)), 3)
