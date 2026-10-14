@@ -77,20 +77,41 @@ def _size(path):
 
 
 def rule1_metadata(target, input_path):
-    """File size + dimensions. Compression and crops leave size fingerprints."""
+    """File-level consistency: could this file have been made from this original?
+
+    Evidence, from measuring the dataset:
+    - A crop or re-save is never larger than its source.
+    - Same pixel size means a re-save (compression, brightness, format change).
+    - Smaller with the same aspect ratio means a proportional crop. A JPEG crop
+      keeps roughly the same bytes per pixel as its source (0.26-0.30 against
+      0.23 for original_00), while the random decoys sit far lower
+      (0.02-0.04 B/px against 0.075-0.23 for the originals).
+    """
     out = {"rule": 1, "name": "Metadata", "fired": False, "score": 0,
            "out_of": 30, "note": "Size ratio 0.00", "metric": 0.0}
     try:
-        src_size = os.path.getsize(target["path"])
-        in_size = os.path.getsize(input_path)
         src_w, src_h = _size(target["path"]) or (0, 0)
         in_w, in_h = _size(input_path) or (0, 0)
-        size_ratio = min(src_size, in_size) / max(src_size, in_size)
-        area_kept = (in_w * in_h) / max(1, src_w * src_h)
-        metric = 0.5 * size_ratio + 0.5 * min(1.0, area_kept)
-        out["metric"] = round(max(0.0, min(1.0, metric)), 3)
+        if not (src_w and src_h and in_w and in_h):
+            return out
+        if in_w > src_w or in_h > src_h:
+            return out  # larger than the original: cannot be derived from it
+
+        if (in_w, in_h) == (src_w, src_h):
+            metric = 1.0  # same frame, re-saved
+        else:
+            aspect_diff = abs((in_w / in_h) / (src_w / src_h) - 1)
+            src_bpp = os.path.getsize(target["path"]) / (src_w * src_h)
+            in_bpp = os.path.getsize(input_path) / (in_w * in_h)
+            bpp_ratio = in_bpp / src_bpp
+            if aspect_diff > 0.02 or not (0.5 <= bpp_ratio <= 2.0):
+                metric = 0.0
+            else:
+                metric = min(bpp_ratio, 1 / bpp_ratio)
+
+        out["metric"] = round(metric, 3)
         out["note"] = f"Size ratio {out['metric']:.2f}"
-        if out["metric"] >= 0.6:
+        if out["metric"] >= 0.5:
             out["fired"] = True
             out["score"] = int(round(out["out_of"] * out["metric"]))
     except Exception:
