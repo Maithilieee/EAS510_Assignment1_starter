@@ -1,0 +1,944 @@
+Processing: modified_00_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.88 -> 18/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 98/100 -> MATCH to original_00
+
+Processing: modified_00_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_00
+
+Processing: modified_00_crop_25pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.78 -> 15/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.36 -> 0/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.46 -> 0/30 points
+Final Score: 45/100 -> REJECTED
+
+Processing: modified_00_crop_50pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.84 -> 17/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.73 -> 15/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 92/100 -> MATCH to original_00
+
+Processing: modified_00_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.88 -> 18/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.84 -> 17/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 95/100 -> MATCH to original_00
+
+Processing: modified_00_format_png.png
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_00
+
+Processing: modified_01_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.28 -> 0/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 80/100 -> MATCH to original_01
+
+Processing: modified_01_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_01
+
+Processing: modified_01_crop_25pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.86 -> 17/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 77/100 -> MATCH to original_01
+
+Processing: modified_01_crop_50pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.71 -> 14/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 0.98 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 93/100 -> MATCH to original_01
+
+Processing: modified_01_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.78 -> 15/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 0.98 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 94/100 -> MATCH to original_01
+
+Processing: modified_01_format_png.png
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_01
+
+Processing: modified_02_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.84 -> 17/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 97/100 -> MATCH to original_02
+
+Processing: modified_02_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_02
+
+Processing: modified_02_crop_25pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.97 -> 19/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.89 -> 18/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 0.52 -> 16/30 points
+Final Score: 83/100 -> MATCH to original_02
+
+Processing: modified_02_crop_50pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.88 -> 17/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.95 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 0.97 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 95/100 -> MATCH to original_02
+
+Processing: modified_02_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.97 -> 19/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 0.98 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 98/100 -> MATCH to original_02
+
+Processing: modified_02_format_png.png
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_02
+
+Processing: modified_03_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.97 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 99/100 -> MATCH to original_03
+
+Processing: modified_03_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_03
+
+Processing: modified_03_crop_25pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.86 -> 17/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.70 -> 14/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 61/100 -> MATCH to original_03
+
+Processing: modified_03_crop_50pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.82 -> 17/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.86 -> 17/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 94/100 -> MATCH to original_03
+
+Processing: modified_03_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.90 -> 18/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 97/100 -> MATCH to original_03
+
+Processing: modified_03_format_png.png
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_03
+
+Processing: modified_04_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_04
+
+Processing: modified_04_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_04
+
+Processing: modified_04_crop_25pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.86 -> 17/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.20 -> 0/30 points
+Final Score: 67/100 -> MATCH to original_04
+
+Processing: modified_04_crop_50pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.76 -> 15/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 94/100 -> MATCH to original_04
+
+Processing: modified_04_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.78 -> 15/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 95/100 -> MATCH to original_04
+
+Processing: modified_04_format_png.png
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_04
+
+Processing: modified_05_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.58 -> 11/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 91/100 -> MATCH to original_05
+
+Processing: modified_05_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_05
+
+Processing: modified_05_crop_25pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.70 -> 14/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.70 -> 14/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 29/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.22 -> 0/30 points
+Final Score: 57/100 -> MATCH to original_05
+
+Processing: modified_05_crop_50pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.79 -> 16/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.93 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 95/100 -> MATCH to original_05
+
+Processing: modified_05_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.86 -> 17/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 96/100 -> MATCH to original_05
+
+Processing: modified_05_format_png.png
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_05
+
+Processing: modified_06_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.96 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 99/100 -> MATCH to original_06
+
+Processing: modified_06_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 99/100 -> MATCH to original_06
+
+Processing: modified_06_crop_25pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.86 -> 17/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.97 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.20 -> 0/30 points
+Final Score: 66/100 -> MATCH to original_06
+
+Processing: modified_06_crop_50pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.85 -> 17/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 96/100 -> MATCH to original_06
+
+Processing: modified_06_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.85 -> 17/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 97/100 -> MATCH to original_06
+
+Processing: modified_06_format_png.png
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_06
+
+Processing: modified_07_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 80/100 -> MATCH to original_07
+
+Processing: modified_07_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_07
+
+Processing: modified_07_crop_25pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.69 -> 14/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.63 -> 13/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 0.78 -> 23/30 points
+Final Score: 80/100 -> MATCH to original_07
+
+Processing: modified_07_crop_50pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.75 -> 15/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.82 -> 17/20 points
+Rule 3 (Template): FIRED - Match score 0.98 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 91/100 -> MATCH to original_07
+
+Processing: modified_07_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.84 -> 17/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.91 -> 18/20 points
+Rule 3 (Template): FIRED - Match score 0.98 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 94/100 -> MATCH to original_07
+
+Processing: modified_07_format_png.png
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_07
+
+Processing: modified_08_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 80/100 -> MATCH to original_08
+
+Processing: modified_08_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.96 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 99/100 -> MATCH to original_08
+
+Processing: modified_08_crop_25pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.62 -> 13/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.52 -> 11/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.32 -> 0/30 points
+Final Score: 54/100 -> MATCH to original_08
+
+Processing: modified_08_crop_50pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.65 -> 13/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.80 -> 16/20 points
+Rule 3 (Template): FIRED - Match score 0.98 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 88/100 -> MATCH to original_08
+
+Processing: modified_08_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.75 -> 15/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.94 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 94/100 -> MATCH to original_08
+
+Processing: modified_08_format_png.png
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_08
+
+Processing: modified_09_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.45 -> 0/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 80/100 -> MATCH to original_09
+
+Processing: modified_09_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_09
+
+Processing: modified_09_crop_25pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.81 -> 16/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.35 -> 0/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 46/100 -> REJECTED
+
+Processing: modified_09_crop_50pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.82 -> 17/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.71 -> 14/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 90/100 -> MATCH to original_09
+
+Processing: modified_09_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.81 -> 16/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.91 -> 18/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 94/100 -> MATCH to original_09
+
+Processing: modified_09_format_png.png
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 100/100 -> MATCH to original_09
+
+Processing: original_00__contrast__compress__q55__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.66 -> 13/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 93/100 -> MATCH to original_00
+
+Processing: original_00__crop_keep60__resized__q45__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.76 -> 15/20 points
+Rule 3 (Template): NO MATCH - Match score 0.13 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 65/100 -> MATCH to original_00
+
+Processing: original_00__crop_keep70__bright__compress__q40__v2.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.91 -> 18/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 78/100 -> MATCH to original_00
+
+Processing: original_00__crop_offcenter_keep75__compress__q35__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.93 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 0.98 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 78/100 -> MATCH to original_00
+
+Processing: original_00__resize_scale114__compress__q45__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.88 -> 17/20 points
+Rule 3 (Template): NO MATCH - Match score 0.41 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 67/100 -> MATCH to original_00
+
+Processing: original_00__rotate6deg__compress__q35__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 19/20 points
+Rule 3 (Template): NO MATCH - Match score 0.42 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 69/100 -> MATCH to original_00
+
+Processing: original_01__contrast__compress__q70__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.43 -> 0/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 80/100 -> MATCH to original_01
+
+Processing: original_01__crop_keep50__resized__q75__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.93 -> 19/20 points
+Rule 3 (Template): NO MATCH - Match score 0.11 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 69/100 -> MATCH to original_01
+
+Processing: original_01__crop_keep70__bright__compress__q40__v2.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.67 -> 13/20 points
+Rule 3 (Template): FIRED - Match score 0.98 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 72/100 -> MATCH to original_01
+
+Processing: original_01__crop_offcenter_keep65__compress__q35__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 0.96 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 79/100 -> MATCH to original_01
+
+Processing: original_01__resize_scale75__compress__q30__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.58 -> 11/20 points
+Rule 3 (Template): NO MATCH - Match score 0.28 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 61/100 -> MATCH to original_01
+
+Processing: original_01__rotate3deg__compress__q65__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.96 -> 19/20 points
+Rule 3 (Template): NO MATCH - Match score 0.55 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 69/100 -> MATCH to original_01
+
+Processing: original_02__contrast__compress__q35__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.14 -> 0/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 80/100 -> MATCH to original_02
+
+Processing: original_02__crop_keep60__resized__q60__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.97 -> 19/20 points
+Rule 3 (Template): NO MATCH - Match score 0.08 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 69/100 -> MATCH to original_02
+
+Processing: original_02__crop_keep70__bright__compress__q40__v2.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.95 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 0.94 -> 28/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 77/100 -> MATCH to original_02
+
+Processing: original_02__crop_offcenter_keep55__compress__q45__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.94 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 0.98 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 78/100 -> MATCH to original_02
+
+Processing: original_02__resize_scale85__compress__q30__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.56 -> 11/20 points
+Rule 3 (Template): NO MATCH - Match score 0.25 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 61/100 -> MATCH to original_02
+
+Processing: original_02__rotate3deg__compress__q35__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): NO MATCH - Match score 0.58 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 70/100 -> MATCH to original_02
+
+Processing: original_03__contrast__compress__q70__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.20 -> 0/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 80/100 -> MATCH to original_03
+
+Processing: original_03__crop_keep60__bright__compress__q40__v2.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.97 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 79/100 -> MATCH to original_03
+
+Processing: original_03__crop_keep60__resized__q60__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 20/20 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 70/100 -> MATCH to original_03
+
+Processing: original_03__crop_offcenter_keep65__compress__q35__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.95 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 79/100 -> MATCH to original_03
+
+Processing: original_03__resize_scale75__compress__q45__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.83 -> 17/20 points
+Rule 3 (Template): NO MATCH - Match score 0.19 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 67/100 -> MATCH to original_03
+
+Processing: original_03__rotate-6deg__compress__q50__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): NO MATCH - Match score 0.58 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 70/100 -> MATCH to original_03
+
+Processing: original_04__contrast__compress__q70__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.85 -> 17/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 97/100 -> MATCH to original_04
+
+Processing: original_04__crop_keep50__resized__q45__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): NO MATCH - Match score 0.13 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 70/100 -> MATCH to original_04
+
+Processing: original_04__crop_keep60__bright__compress__q65__v2.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.89 -> 18/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.96 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 0.97 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 96/100 -> MATCH to original_04
+
+Processing: original_04__crop_offcenter_keep75__compress__q35__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 80/100 -> MATCH to original_04
+
+Processing: original_04__resize_scale85__compress__q60__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): NO MATCH - Match score 0.21 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 70/100 -> MATCH to original_04
+
+Processing: original_04__rotate-4deg__compress__q50__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): NO MATCH - Match score 0.52 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 70/100 -> MATCH to original_04
+
+Processing: original_05__contrast__compress__q35__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.09 -> 0/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 80/100 -> MATCH to original_05
+
+Processing: original_05__crop_keep50__resized__q60__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.96 -> 19/20 points
+Rule 3 (Template): NO MATCH - Match score 0.04 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 69/100 -> MATCH to original_05
+
+Processing: original_05__crop_keep70__bright__compress__q65__v2.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.57 -> 11/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.85 -> 17/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 88/100 -> MATCH to original_05
+
+Processing: original_05__crop_offcenter_keep75__compress__q25__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 80/100 -> MATCH to original_05
+
+Processing: original_05__resize_scale114__compress__q60__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 20/20 points
+Rule 3 (Template): NO MATCH - Match score 0.29 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 70/100 -> MATCH to original_05
+
+Processing: original_05__rotate-3deg__compress__q65__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): NO MATCH - Match score 0.56 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 70/100 -> MATCH to original_05
+
+Processing: original_06__contrast__compress__q35__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.83 -> 17/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 97/100 -> MATCH to original_06
+
+Processing: original_06__crop_keep50__resized__q45__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 19/20 points
+Rule 3 (Template): NO MATCH - Match score 0.17 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 69/100 -> MATCH to original_06
+
+Processing: original_06__crop_keep70__bright__compress__q55__v2.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.95 -> 19/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 79/100 -> MATCH to original_06
+
+Processing: original_06__crop_offcenter_keep75__compress__q25__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 80/100 -> MATCH to original_06
+
+Processing: original_06__resize_scale85__compress__q45__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.87 -> 17/20 points
+Rule 3 (Template): NO MATCH - Match score 0.30 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 67/100 -> MATCH to original_06
+
+Processing: original_06__rotate-6deg__compress__q35__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.97 -> 19/20 points
+Rule 3 (Template): NO MATCH - Match score 0.43 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 69/100 -> MATCH to original_06
+
+Processing: original_07__contrast__compress__q70__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.70 -> 14/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 94/100 -> MATCH to original_07
+
+Processing: original_07__crop_keep60__bright__compress__q55__v2.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.57 -> 11/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.62 -> 13/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 84/100 -> MATCH to original_07
+
+Processing: original_07__crop_keep60__resized__q60__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.91 -> 18/20 points
+Rule 3 (Template): NO MATCH - Match score 0.26 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 68/100 -> MATCH to original_07
+
+Processing: original_07__crop_offcenter_keep55__compress__q35__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.92 -> 18/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 78/100 -> MATCH to original_07
+
+Processing: original_07__resize_scale114__compress__q45__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.97 -> 19/20 points
+Rule 3 (Template): NO MATCH - Match score 0.41 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 69/100 -> MATCH to original_07
+
+Processing: original_07__rotate-3deg__compress__q65__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): NO MATCH - Match score 0.56 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 70/100 -> MATCH to original_07
+
+Processing: original_08__contrast__compress__q35__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.19 -> 0/20 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 80/100 -> MATCH to original_08
+
+Processing: original_08__crop_keep60__bright__compress__q55__v2.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.52 -> 11/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.06 -> 0/20 points
+Rule 3 (Template): FIRED - Match score 0.98 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 70/100 -> MATCH to original_08
+
+Processing: original_08__crop_keep60__resized__q45__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.93 -> 19/20 points
+Rule 3 (Template): NO MATCH - Match score 0.12 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 69/100 -> MATCH to original_08
+
+Processing: original_08__crop_offcenter_keep65__compress__q35__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.92 -> 18/20 points
+Rule 3 (Template): FIRED - Match score 0.98 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 77/100 -> MATCH to original_08
+
+Processing: original_08__resize_scale114__compress__q30__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.94 -> 19/20 points
+Rule 3 (Template): NO MATCH - Match score 0.48 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 69/100 -> MATCH to original_08
+
+Processing: original_08__rotate3deg__compress__q50__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): NO MATCH - Match score 0.65 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 70/100 -> MATCH to original_08
+
+Processing: original_09__contrast__compress__q35__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.79 -> 16/20 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 30/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 96/100 -> MATCH to original_09
+
+Processing: original_09__crop_keep50__resized__q75__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.67 -> 13/20 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.46 -> 0/30 points
+Final Score: 33/100 -> REJECTED
+
+Processing: original_09__crop_keep60__bright__compress__q40__v2.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.28 -> 0/20 points
+Rule 3 (Template): FIRED - Match score 0.98 -> 29/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.46 -> 0/30 points
+Final Score: 29/100 -> REJECTED
+
+Processing: original_09__crop_offcenter_keep55__compress__q25__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.72 -> 15/20 points
+Rule 3 (Template): FIRED - Match score 0.97 -> 29/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 0.92 -> 28/30 points
+Final Score: 72/100 -> MATCH to original_09
+
+Processing: original_09__resize_scale75__compress__q30__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.57 -> 11/20 points
+Rule 3 (Template): NO MATCH - Match score 0.60 -> 0/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 61/100 -> MATCH to original_09
+
+Processing: original_09__rotate-3deg__compress__q65__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 20/20 points
+Rule 3 (Template): FIRED - Match score 0.87 -> 26/30 points
+Rule 4 (Keypoints): FIRED - Keypoint score 1.00 -> 30/30 points
+Final Score: 96/100 -> MATCH to original_09
+
+Processing: random_05.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/20 points
+Rule 3 (Template): NO MATCH - Match score 0.02 -> 0/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_06.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/20 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_07.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/20 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_08.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/20 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_09.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.21 -> 0/20 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_10.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/20 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_11.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 20/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/20 points
+Rule 3 (Template): NO MATCH - Match score 0.31 -> 0/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 20/100 -> REJECTED
+
+Processing: random_12.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/20 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_13.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/20 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_14.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.03 -> 0/20 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_noise_00.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/20 points
+Rule 3 (Template): NO MATCH - Match score 0.11 -> 0/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_noise_01.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/20 points
+Rule 3 (Template): NO MATCH - Match score 0.11 -> 0/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_noise_02.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/20 points
+Rule 3 (Template): NO MATCH - Match score 0.12 -> 0/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_noise_03.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/20 points
+Rule 3 (Template): NO MATCH - Match score 0.12 -> 0/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_noise_04.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.00 -> 0/20 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/20 points
+Rule 3 (Template): NO MATCH - Match score 0.11 -> 0/30 points
+Rule 4 (Keypoints): NO MATCH - Keypoint score 0.00 -> 0/30 points
+Final Score: 0/100 -> REJECTED
