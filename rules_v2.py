@@ -48,9 +48,9 @@ def rule3_template_v2(target, input_path):
     return _reweight(rules.rule3_template(target, input_path), WEIGHTS[3])
 
 
-_ORB = cv2.ORB_create(nfeatures=1000)
+_ORB = cv2.ORB_create(nfeatures=3000)  # 25% crops cover ~6% of the frame; 1000 left ~60 points inside them
 _MATCHER = cv2.BFMatcher(cv2.NORM_HAMMING)
-ORB_MAX_DIM = 1024       # shrink the original to this size; suspect gets the same factor
+ORB_MAX_DIM = 2048       # 1024 shrank 25% crops to ~170x256, too small for reliable corners
 RATIO_TEST = 0.75        # keep a pair only if clearly better than the runner-up
 INLIERS_FOR_FULL = 20    # decoys score 0 inliers, so 20 agreeing points is overwhelming
 FIRE_AT = 0.5            # fires at 10 inliers, well clear of the decoys' 0
