@@ -52,8 +52,8 @@ _ORB = cv2.ORB_create(nfeatures=1000)
 _MATCHER = cv2.BFMatcher(cv2.NORM_HAMMING)
 ORB_MAX_DIM = 1024       # shrink the original to this size; suspect gets the same factor
 RATIO_TEST = 0.75        # keep a pair only if clearly better than the runner-up
-INLIERS_FOR_FULL = 50    # provisional: tuned from measured results
-FIRE_AT = 0.5            # provisional: tuned from measured results
+INLIERS_FOR_FULL = 20    # decoys score 0 inliers, so 20 agreeing points is overwhelming
+FIRE_AT = 0.5            # fires at 10 inliers, well clear of the decoys' 0
 
 
 @lru_cache(maxsize=2048)
